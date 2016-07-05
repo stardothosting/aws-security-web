@@ -1,6 +1,6 @@
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL); 
+//ini_set('display_errors', 1);
+//error_reporting(E_ALL); 
 
 // Load sdk
 require 'vendor/autoload.php';
@@ -59,7 +59,7 @@ if (!empty($_POST['ip_address'])) {
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<title>TRNN Security IP Interface</title>
+<title>AWS Security IP Interface</title>
 <style>
 #message {
 	text-align:center;
